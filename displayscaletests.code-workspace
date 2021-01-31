@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.pythonPath": "C:\Users\ts_mc\.virtualenvs\DisplayScaleTests-8TtB9InM",
+		"python.linting.flake8Args": [
+			"\"python.linting.flake8Args\": [     \"--max-line-length=120\",     \"--ignore=E402,F841,F401,E302,E305\", ],"
+		]
+}
