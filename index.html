@@ -17,10 +17,25 @@
 <h1>HTML Heading</h1>
 <p>HTML paragraph 1.</p>
 
-<h2>The Map</h2>
+<h2>The Map 2</h2>
 
-<div id="mapid"> style = "width:900px; height:580px;">
-    var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+<div id="mapid" style = "width:900px; height:580px;">
+    <script>
+        // Creating map options
+        var mapOptions = {
+           center: [17.385044, 78.486671],
+           zoom: 10
+        }
+        
+        // Creating a map object
+        var map = new L.map('map', mapOptions);
+        
+        // Creating a Layer object
+        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+        
+        // Adding layer to the map
+        map.addLayer(layer);
+    </script>
 </div>
 
 <!-- <script defer src="scripts/main.js"></script> -->
