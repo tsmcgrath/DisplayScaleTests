@@ -1,2 +1,2 @@
-const myHeading = document.querySelector('p');
-myHeading.textContent = 'Javascript Heading!';
+const mypara = document.querySelector('p');
+mypara.textContent = 'Javascript paragraph!';
